@@ -1,0 +1,86 @@
+openapi: 3.0.0
+info:
+  description: This API provides order info
+  version: "1.0.0"
+  title: Order API
+  contact:
+    email: nrelloma@gmail.com
+paths:
+  /order-request:
+    get:
+      summary: Gets a order reading from history
+      operationId:
+        app.get_order_request
+      description:
+        Gets an order reading from eventstore
+      parameters:
+        - name: index
+          in: query
+          description: Gets the order event for this index from the eventstore
+          schema:
+            type: integer
+            example: 100
+      responses:
+        '200':
+          description: Successfully returned event
+          content:
+            application/json:
+              schema:
+                type: object
+        '400':
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        '404':
+          description: Not Found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                   type: string
+  /accept-order-request:
+    get:
+      summary: Gets a accept order reading from history
+      operationId:
+        app.get_accept_order_request
+      description:
+        Gets a accept order reading from eventstore
+      parameters:
+        - name: index
+          in: query
+          description: Gets the accept order event for this index from the eventstore
+          schema:
+            type: integer
+            example: 100
+      responses:
+        '200':
+          description: Successfully returned event
+          content:
+            application/json:
+              schema:
+                type: object
+        '400':
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        '404':
+          description: Not Found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string

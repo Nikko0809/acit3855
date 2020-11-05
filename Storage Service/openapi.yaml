@@ -1,0 +1,148 @@
+openapi: 3.0.0
+info:
+  description: This API receives product order and accept requests
+  version: "1.0.0"
+  title: Order API
+  contact:
+    email: nrelloma@gmail.com
+tags:
+  - name: orders
+    description: Operations regarding order management
+paths:
+  /orders/order-request:
+    get:
+      tags:
+        - orders
+      summary: gets order requests
+      operationId: app.get_order_request
+      description: Gets order requests added after a timestamp
+      parameters:
+        - name: timestamp
+          in: query
+          description: Limits the number of items on a page
+          schema:
+            type: string
+            format: date-time
+            example: "2020-09-09T09:12:33Z"
+      responses:
+        '200':
+          description: Successfully returned a list of order requests
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/OrderRequest'
+        '400':
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+  /orders/accept-order-request:
+    get:
+      tags:
+        - orders
+      summary: gets accept order requests
+      operationId: app.get_accept_order_request
+      description: Gets accept order requests added after a timestamp
+      parameters:
+        - name: timestamp
+          in: query
+          description: Limits the number of items on a page
+          schema:
+            type: string
+            format: date-time
+            example: "2020-09-09T09:12:33Z"
+      responses:
+        '200':
+          description: Successfully returned a list of accept order requests
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/AcceptOrderRequest'
+        '400':
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+components:
+  schemas:
+    OrderRequest:
+      required: 
+        - user_id
+        - order_id
+        - orders
+        - total
+        - timestamp
+      properties:
+        user_id:
+          type: string
+          example: U00001
+        order_id:
+          type: string
+          example: O00001
+        orders:
+          type: array
+          items:
+            $ref: '#/components/schemas/Orders'
+        total:
+          type: number
+          example: 100.99
+        timestamp:
+          type: string
+          format: date-time
+          example: "2020-09-09T09:12:33Z"
+      type: object
+    AcceptOrderRequest:
+      required:
+        - courier_id
+        - order_id
+        - orders
+        - total
+        - timestamp
+      properties:
+        courier_id:
+          type: string
+          example: C00001
+        order_id:
+          type: string
+          example: O00001
+        orders:
+          type: array
+          items:
+            $ref: '#/components/schemas/Orders'
+        total:
+          type: number
+          example: 100.99
+        timestamp:
+          type: string
+          format: date-time
+          example: "2020-09-09T09:12:33Z"
+      type: object
+    Orders:
+      required:
+        - product_id
+        - name
+        - price
+      properties:
+        product_id:
+          type: string
+          example: P00001
+        name:
+          type: string
+          example: foo
+        price:
+          type: number
+          format: double
+          example: 100.99
+      type: object

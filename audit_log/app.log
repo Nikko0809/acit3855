@@ -1,0 +1,150 @@
+2020-10-29 08:07:24,724 - basicLogger - INFO - Retrieving Order at index 0
+2020-10-29 08:07:24,830 - basicLogger - ERROR - Could not find BP at index 0
+2020-10-29 08:08:11,766 - basicLogger - INFO - Retrieving Order at index 0
+2020-10-29 08:08:34,494 - basicLogger - INFO - Retrieving Order at index 0
+2020-10-29 08:14:45,282 - basicLogger - INFO - Retrieving Order at index 0
+2020-10-29 08:19:10,360 - basicLogger - INFO - Retrieving Order at index 0
+2020-10-29 08:20:17,193 - basicLogger - INFO - Retrieving Order at index 0
+2020-10-29 08:20:57,002 - basicLogger - INFO - Retrieving Order at index 0
+2020-10-29 08:21:06,459 - basicLogger - INFO - Retrieving Order at index 2
+2020-10-29 08:22:57,729 - basicLogger - INFO - Retrieving Order at index 2
+2020-10-29 08:25:55,452 - basicLogger - INFO - Retrieving Order at index 2
+2020-10-29 08:26:05,693 - basicLogger - INFO - Retrieving Order at index 1
+2020-10-29 08:26:14,235 - basicLogger - INFO - Retrieving Order at index 9
+2020-10-29 08:36:42,861 - basicLogger - INFO - Retrieving Order at index 9
+2020-10-29 08:44:03,701 - basicLogger - INFO - Retrieving Order at index 9
+2020-10-29 08:44:09,611 - basicLogger - INFO - Retrieving Order at index 10
+2020-10-29 08:44:18,293 - basicLogger - INFO - Retrieving Order at index 100000000
+2020-10-29 08:47:26,330 - basicLogger - INFO - Retrieving Order at index 100000000
+2020-10-29 08:47:26,509 - basicLogger - ERROR - Could not find order at index 100000000
+2020-10-29 08:49:55,750 - basicLogger - INFO - Retrieving Order at index 100000000
+2020-10-29 08:49:55,852 - basicLogger - ERROR - Could not find order at index 100000000
+2020-10-29 08:50:03,495 - basicLogger - INFO - Retrieving Order at index 0
+2020-10-29 08:50:03,613 - basicLogger - ERROR - Could not find order at index 0
+2020-10-29 08:50:13,043 - basicLogger - INFO - Retrieving Order at index 0
+2020-10-29 08:50:13,231 - basicLogger - ERROR - Could not find order at index 0
+2020-10-29 08:50:14,801 - basicLogger - INFO - Retrieving Order at index 0
+2020-10-29 08:50:14,999 - basicLogger - ERROR - Could not find order at index 0
+2020-10-29 08:50:41,521 - basicLogger - INFO - Retrieving Order at index 0
+2020-10-29 08:50:41,631 - basicLogger - ERROR - Could not find order at index 0
+2020-10-29 08:51:21,165 - basicLogger - INFO - Retrieving Order at index 0
+2020-10-29 08:52:46,731 - basicLogger - INFO - Retrieving Order at index 0
+2020-10-29 08:52:46,846 - basicLogger - ERROR - Could not find order at index 0
+2020-10-29 08:55:37,836 - basicLogger - INFO - Retrieving Order at index 0
+2020-10-29 08:55:37,958 - basicLogger - ERROR - Could not find order at index 0
+2020-10-29 08:55:52,695 - basicLogger - INFO - Retrieving Order at index 1
+2020-10-29 08:55:52,815 - basicLogger - ERROR - Could not find order at index 1
+2020-10-29 08:57:09,760 - basicLogger - INFO - Retrieving Order at index 1
+2020-10-29 08:57:09,869 - basicLogger - ERROR - Could not find order at index 1
+2020-10-29 08:57:19,335 - basicLogger - INFO - Retrieving Order at index 0
+2020-10-29 08:57:19,457 - basicLogger - ERROR - Could not find order at index 0
+2020-10-29 08:57:32,602 - basicLogger - INFO - Retrieving Order at index 0
+2020-10-29 08:57:32,716 - basicLogger - ERROR - Could not find order at index 0
+2020-10-29 08:58:18,803 - basicLogger - INFO - Retrieving Order at index 0
+2020-10-29 08:58:18,909 - basicLogger - ERROR - Could not find order at index 0
+2020-10-29 08:58:21,059 - basicLogger - INFO - Retrieving Order at index 0
+2020-10-29 08:58:21,174 - basicLogger - ERROR - Could not find order at index 0
+2020-10-29 08:58:53,707 - basicLogger - INFO - Retrieving Order at index 0
+2020-10-29 08:58:53,810 - basicLogger - ERROR - Could not find order at index 0
+2020-10-29 09:03:06,435 - basicLogger - INFO - Retrieving Order at index 0
+2020-10-29 13:37:18,161 - basicLogger - INFO - Retrieving Order at index 0
+2020-10-29 13:37:25,460 - basicLogger - INFO - Retrieving Order at index 22
+2020-10-29 13:53:36,451 - basicLogger - INFO - Retrieving Order at index 0
+2020-10-29 14:22:14,820 - basicLogger - INFO - Retrieving Order at index 22
+2020-10-29 14:22:14,930 - basicLogger - ERROR - Could not find order at index 22
+2020-10-29 14:22:24,592 - basicLogger - INFO - Retrieving Order at index 22
+2020-10-29 14:22:24,702 - basicLogger - ERROR - Could not find order at index 22
+2020-10-29 14:22:35,321 - basicLogger - INFO - Retrieving Order at index 0
+2020-10-29 14:22:35,438 - basicLogger - ERROR - Could not find order at index 0
+2020-10-29 14:24:17,692 - basicLogger - INFO - Retrieving Order at index 0
+2020-10-29 14:24:17,793 - basicLogger - ERROR - Could not find order at index 0
+2020-10-29 14:25:56,872 - basicLogger - INFO - Retrieving Order at index 0
+2020-10-29 14:25:56,979 - basicLogger - ERROR - Could not find order at index 0
+2020-10-29 14:26:15,379 - basicLogger - INFO - Retrieving Accept Order at index 0
+2020-10-29 14:26:15,484 - basicLogger - ERROR - Could not find accept order at index 0
+2020-10-29 14:27:18,450 - basicLogger - INFO - Retrieving Accept Order at index 0
+2020-10-29 14:27:22,282 - basicLogger - INFO - Retrieving Accept Order at index 0
+2020-10-29 14:27:29,957 - basicLogger - INFO - Retrieving Accept Order at index 1
+2020-10-29 14:36:25,932 - basicLogger - INFO - Retrieving Accept Order at index 1
+2020-10-29 14:36:51,801 - basicLogger - INFO - Retrieving Accept Order at index 1
+2020-10-29 14:37:04,620 - basicLogger - INFO - Retrieving Accept Order at index 1
+2020-10-29 14:39:12,327 - basicLogger - INFO - Retrieving Accept Order at index 1
+2020-10-29 14:42:45,498 - basicLogger - INFO - Retrieving Accept Order at index 1
+2020-10-29 14:46:05,855 - basicLogger - INFO - Retrieving Accept Order at index 1
+2020-10-29 14:48:29,871 - basicLogger - INFO - Retrieving Accept Order at index 1
+2020-10-29 14:50:29,436 - basicLogger - INFO - Retrieving Accept Order at index 1
+2020-10-29 14:51:12,565 - basicLogger - INFO - Retrieving Accept Order at index 1
+2020-10-29 14:51:12,673 - basicLogger - ERROR - Could not find accept order at index 1
+2020-10-29 14:52:13,735 - basicLogger - INFO - Retrieving Accept Order at index 1
+2020-10-29 14:52:13,839 - basicLogger - ERROR - Could not find accept order at index 1
+2020-10-29 14:52:15,791 - basicLogger - INFO - Retrieving Accept Order at index 1
+2020-10-29 14:52:18,429 - basicLogger - INFO - Retrieving Accept Order at index 1
+2020-10-29 14:52:24,473 - basicLogger - INFO - Retrieving Accept Order at index 0
+2020-10-29 14:52:24,578 - basicLogger - ERROR - Could not find accept order at index 0
+2020-10-29 14:52:27,252 - basicLogger - INFO - Retrieving Accept Order at index 0
+2020-10-29 14:52:27,356 - basicLogger - ERROR - Could not find accept order at index 0
+2020-10-29 14:52:32,614 - basicLogger - INFO - Retrieving Accept Order at index 1
+2020-10-29 14:52:44,236 - basicLogger - INFO - Retrieving Accept Order at index 1
+2020-10-29 14:52:44,343 - basicLogger - ERROR - Could not find accept order at index 1
+2020-10-29 14:52:50,261 - basicLogger - INFO - Retrieving Accept Order at index 2
+2020-10-29 14:52:50,368 - basicLogger - ERROR - Could not find accept order at index 2
+2020-10-29 14:52:55,048 - basicLogger - INFO - Retrieving Accept Order at index 1
+2020-10-29 14:53:25,869 - basicLogger - INFO - Retrieving Accept Order at index 1
+2020-10-29 14:54:35,157 - basicLogger - INFO - Retrieving Accept Order at index 1
+2020-10-29 14:54:43,005 - basicLogger - INFO - Retrieving Accept Order at index 22
+2020-10-29 14:54:43,125 - basicLogger - ERROR - Could not find accept order at index 22
+2020-10-29 14:54:50,519 - basicLogger - INFO - Retrieving Accept Order at index 2
+2020-10-29 14:54:56,663 - basicLogger - INFO - Retrieving Accept Order at index 3
+2020-10-29 14:55:41,986 - basicLogger - INFO - Retrieving Accept Order at index 4
+2020-10-29 14:55:42,097 - basicLogger - ERROR - Could not find accept order at index 4
+2020-10-29 14:55:45,793 - basicLogger - INFO - Retrieving Accept Order at index 4
+2020-10-29 14:55:45,904 - basicLogger - ERROR - Could not find accept order at index 4
+2020-10-29 14:55:48,269 - basicLogger - INFO - Retrieving Accept Order at index 4
+2020-10-29 14:59:50,233 - basicLogger - INFO - Retrieving Accept Order at index 4
+2020-10-29 14:59:50,338 - basicLogger - ERROR - Could not find accept order at index 4
+2020-10-29 14:59:52,455 - basicLogger - INFO - Retrieving Accept Order at index 4
+2020-10-29 15:02:33,170 - basicLogger - INFO - Retrieving Accept Order at index 4
+2020-10-29 15:05:29,604 - basicLogger - INFO - Retrieving Accept Order at index 4
+2020-10-29 15:05:31,395 - basicLogger - INFO - Retrieving Accept Order at index 4
+2020-10-29 15:10:14,828 - basicLogger - INFO - Retrieving Accept Order at index 4
+2020-10-29 15:10:14,937 - basicLogger - ERROR - Could not find accept order at index 4
+2020-10-29 15:10:17,176 - basicLogger - INFO - Retrieving Accept Order at index 4
+2020-10-29 15:20:17,229 - basicLogger - INFO - Retrieving Accept Order at index 4
+2020-10-29 15:20:17,339 - basicLogger - ERROR - Could not find accept order at index 4
+2020-10-29 15:20:19,766 - basicLogger - INFO - Retrieving Accept Order at index 4
+2020-10-29 15:20:19,879 - basicLogger - ERROR - Could not find accept order at index 4
+2020-10-29 15:20:21,432 - basicLogger - INFO - Retrieving Accept Order at index 4
+2020-10-29 15:20:21,543 - basicLogger - ERROR - Could not find accept order at index 4
+2020-10-29 15:20:28,468 - basicLogger - INFO - Retrieving Accept Order at index 0
+2020-10-29 15:20:28,577 - basicLogger - ERROR - Could not find accept order at index 0
+2020-10-29 15:20:30,334 - basicLogger - INFO - Retrieving Accept Order at index 0
+2020-10-29 15:20:30,448 - basicLogger - ERROR - Could not find accept order at index 0
+2020-10-29 15:20:32,044 - basicLogger - INFO - Retrieving Accept Order at index 0
+2020-10-29 15:20:32,159 - basicLogger - ERROR - Could not find accept order at index 0
+2020-10-29 15:20:35,092 - basicLogger - INFO - Retrieving Accept Order at index 0
+2020-10-29 15:20:35,207 - basicLogger - ERROR - Could not find accept order at index 0
+2020-10-29 15:20:42,866 - basicLogger - INFO - Retrieving Order at index 0
+2020-10-29 15:20:42,970 - basicLogger - ERROR - Could not find order at index 0
+2020-10-29 15:20:44,720 - basicLogger - INFO - Retrieving Order at index 0
+2020-10-29 15:20:44,823 - basicLogger - ERROR - Could not find order at index 0
+2020-10-29 15:21:18,661 - basicLogger - INFO - Retrieving Order at index 0
+2020-10-29 15:21:18,764 - basicLogger - ERROR - Could not find order at index 0
+2020-10-29 15:21:20,601 - basicLogger - INFO - Retrieving Order at index 0
+2020-10-29 15:21:20,718 - basicLogger - ERROR - Could not find order at index 0
+2020-10-29 15:22:05,686 - basicLogger - INFO - Retrieving Order at index 0
+2020-10-29 15:22:05,701 - basicLogger - ERROR - Could not find order at index 0
+2020-10-29 15:22:07,734 - basicLogger - INFO - Retrieving Order at index 0
+2020-10-29 15:22:07,744 - basicLogger - ERROR - Could not find order at index 0
+2020-10-29 15:22:13,435 - basicLogger - INFO - Retrieving Order at index 0
+2020-10-29 15:22:13,460 - basicLogger - ERROR - Could not find order at index 0
+2020-10-29 15:22:30,608 - basicLogger - INFO - Retrieving Order at index 0
+2020-10-29 15:22:30,625 - basicLogger - ERROR - Could not find order at index 0
+2020-10-29 15:22:32,465 - basicLogger - INFO - Retrieving Order at index 0
+2020-10-29 15:22:32,479 - basicLogger - ERROR - Could not find order at index 0
+2020-10-29 15:22:34,091 - basicLogger - INFO - Retrieving Order at index 0
+2020-10-29 15:22:34,116 - basicLogger - ERROR - Could not find order at index 0
+2020-10-29 15:23:02,499 - basicLogger - INFO - Retrieving Order at index 0
+2020-10-29 15:23:11,482 - basicLogger - INFO - Retrieving Order at index 1
+2020-10-29 15:23:18,197 - basicLogger - INFO - Retrieving Order at index 20
+2020-10-29 15:23:26,185 - basicLogger - INFO - Retrieving Order at index 200000000
+2020-10-29 15:23:26,857 - basicLogger - ERROR - Could not find order at index 200000000

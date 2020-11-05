@@ -1,0 +1,118 @@
+openapi: 3.0.0
+info:
+  description: This API receives product order and accept requests
+  version: "1.0.0"
+  title: Order API
+  contact:
+    email: nrelloma@gmail.com
+tags:
+  - name: orders
+    description: Operations regarding order management
+paths:
+  /orders/order-request:
+    post:
+      tags:
+        - orders
+      summary: reports order request
+      operationId: app.order_request
+      description: Adds a order request to the system
+      responses:
+        '201':
+          description: order created
+        '400':
+          description: invalid order
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/OrderRequest'
+        description: order request to add
+  /orders/accept-order-request:
+    post:
+      tags:
+        - orders
+      summary: reports accept order request
+      operationId: app.accept_order_request
+      description: Adds accept order request to the system
+      responses:
+        '201':
+          description: accept order created
+        '400':
+          description: invalid accept order
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/AcceptOrderRequest'
+        description: accept order request to add
+components:
+  schemas:
+    OrderRequest:
+      required: 
+        - user_id
+        - order_id
+        - orders
+        - total
+        - timestamp
+      properties:
+        user_id:
+          type: string
+          example: U00001
+        order_id:
+          type: string
+          example: O00001
+        orders:
+          type: array
+          items:
+            $ref: '#/components/schemas/Orders'
+        total:
+          type: number
+          example: 100.99
+        timestamp:
+          type: string
+          format: date-time
+          example: "2020-09-09T09:12:33Z"
+      type: object
+    AcceptOrderRequest:
+      required:
+        - courier_id
+        - order_id
+        - orders
+        - total
+        - timestamp
+      properties:
+        courier_id:
+          type: string
+          example: C00001
+        order_id:
+          type: string
+          example: O00001
+        orders:
+          type: array
+          items:
+            $ref: '#/components/schemas/Orders'
+        total:
+          type: number
+          example: 100.99
+        timestamp:
+          type: string
+          format: date-time
+          example: "2020-09-09T09:12:33Z"
+      type: object
+    Orders:
+      required:
+        - product_id
+        - name
+        - price
+      properties:
+        product_id:
+          type: string
+          example: P00001
+        name:
+          type: string
+          example: foo
+        price:
+          type: number
+          format: double
+          example: 100.99
+      type: object

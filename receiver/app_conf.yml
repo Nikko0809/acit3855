@@ -1,0 +1,9 @@
+version: 1
+order_request:
+  url: http://localhost:8090/orders/order-request
+accept_order_request:
+  url: http://localhost:8090/orders/accept-order-request
+events:
+  hostname: kafka-acit3855.westus.cloudapp.azure.com
+  port: 9092
+  topic: events

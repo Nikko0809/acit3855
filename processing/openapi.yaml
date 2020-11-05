@@ -1,0 +1,54 @@
+openapi: 3.0.0
+info:
+  description: This API provides event stats
+  version: "1.0.0"
+  title: Order API
+  contact:
+    email: nrelloma@gmail.com
+paths:
+  /stats:
+    get:
+      summary: Gets the event stats
+      operationId: app.get_stats
+      description: Gets Order Requests and Accept Order Requests stats
+      responses:
+        '200':
+          description: Successfully returned a list of order stats
+          content:
+            application/json:
+              schema:
+                type: object
+                items:
+                  $ref: '#/components/schemas/ReadingStats'
+        '400':
+          description: Invalid Requests
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+components:
+  schemas:
+    ReadingStats:
+      required:
+        - num_of_order_requests
+        - total_of_order_requests
+        - num_of_accept_order_requests
+        - total_of_accept_order_requests
+      properties:
+        num_of_order_requests:
+          type: integer
+          example: 100000
+        total_of_order_requests:
+          type: integer
+          format: double
+          example: 100.99
+        num_of_accept_order_requests:
+          type: integer
+          example: 100000
+        total_of_accept_order_requests:
+          type: integer
+          format: double
+          example: 100.99
