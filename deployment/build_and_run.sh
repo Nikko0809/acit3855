@@ -8,7 +8,7 @@ docker build -t processing:latest .
 
 cd ..
 cd receiver
-docker build -t reciever:latest .
+docker build -t receiver:latest .
 
 cd ..
 cd storage
