@@ -34,15 +34,6 @@ logger.info("App Conf File: %s" % app_conf_file)
 
 logger.info("Log Conf File: %s" % log_conf_file)
 
-# with open('app_conf.yml', 'r') as f:
-#   app_config = yaml.safe_load(f.read())
-
-# with open('log_conf.yml', 'r') as f:
-#   log_config = yaml.safe_load(f.read())
-#   logging.config.dictConfig(log_config)
-
-# logger = logging.getLogger('basicLogger')
-
 def order_request(body):
 
   logger.info("Received event order_request with a unique id of {}".format(body["user_id"]))

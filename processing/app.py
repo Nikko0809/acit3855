@@ -35,16 +35,6 @@ logger.info("App Conf File: %s" % app_conf_file)
 
 logger.info("Log Conf File: %s" % log_conf_file)
 
-# with open('app_conf.yml', 'r') as f:
-#   app_config = yaml.safe_load(f.read())
-
-# with open('log_conf.yml', 'r') as f:
-#   log_config = yaml.safe_load(f.read())
-#   logging.config.dictConfig(log_config)
-
-# logger = logging.getLogger('basicLogger')
-
-
 def populate_stats():
   """ Periodically update stats """
   logger.info("Start Periodic Processing")
@@ -58,7 +48,8 @@ def populate_stats():
       "total_of_order_requests": 0,
       "num_of_accept_order_requests": 0,
       "total_of_accept_order_requests": 0,
-      "last_requested": datetime.date.min.strftime("%Y-%m-%dT%H:%M:%SZ")
+      "last_requested": "2019-01-01T01:00:00Z"
+      # "last_requested": datetime.date.min.strftime("%Y-%m-%dT%H:%M:%SZ")
     }
 
   order_response = requests.get(
