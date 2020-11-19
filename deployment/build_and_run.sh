@@ -1,6 +1,6 @@
 cd ..
 cd audit_log
-docker build -t audit:latest .
+docker build -t audit_log:latest .
 
 cd ..
 cd processing
