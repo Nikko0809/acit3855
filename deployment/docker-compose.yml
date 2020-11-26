@@ -72,7 +72,6 @@ services:
       - "db"
   processing:
     image: processing
-    network_mode: "host"
     ports:
       - "8100"
     networks:
